@@ -13,6 +13,18 @@ Currently supported components:
 - Ideal Voltage Source
 - Ideal Operational amplifier
 
+## Requirements
+
+- **Base Requirement:** The project only requires `numpy` if you're not running the demo.
+- **For Demo:** To run the demo, you'll also need `plotly` and `kaleido`.
+
+If you encounter any library compatibility issues, the following package versions have been tested and are known to work:
+
+- Python 3.10.9
+- `numpy==1.23.5`
+- `plotly==5.23.0`
+- `kaleido==0.2.1`
+
 ## How To Use
 
 Let's take a simple first-order RC circuit as an example:
